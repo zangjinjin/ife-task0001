@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta content="telephone=no" name="format-detection" />
+ <style>
+	body{
+		padding:0;
+		margin:0;
+	}
+	.content{
+		overflow:hidden;
+		padding:10px;
+		background:#ffffcc;
+	}
+	.box{
+		width:200px;
+		height:100px;
+		margin:5px;
+		float:left;
+		background:#ff66ff;
+	}
+	</style>
+ </head>
+
+ <body>
+ <div>实现一个浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 </div>
+  <div class="content">
+	  <div class="box"></div>
+	  <div class="box"></div>
+	  <div class="box"></div>
+	   <div class="box"></div>
+	  <div class="box"></div>
+	  <div class="box"></div>
+	   <div class="box"></div>
+	  <div class="box"></div>
+	  <div class="box"></div>
+  </div>
+ </body>
+</html>
